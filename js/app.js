@@ -18,24 +18,28 @@ let quiz = [];
 function questionAssign1() {
   quiz = cLang;
   console.log(quiz);
+  homeBox.querySelector(".total-question").innerHTML = quiz.length;
   optionBox.classList.add("hide");
   homeBox.classList.remove("hide");
 }
 function questionAssign2() {
   quiz = cppLang;
   console.log(quiz);
+  homeBox.querySelector(".total-question").innerHTML = quiz.length;
   optionBox.classList.add("hide");
   homeBox.classList.remove("hide");
 }
 function questionAssign3() {
   quiz = javaLang;
   console.log(quiz);
+  homeBox.querySelector(".total-question").innerHTML = quiz.length;
   optionBox.classList.add("hide");
   homeBox.classList.remove("hide");
 }
 function questionAssign4() {
   quiz = pythonLang;
   console.log(quiz);
+  homeBox.querySelector(".total-question").innerHTML = quiz.length;
   optionBox.classList.add("hide");
   homeBox.classList.remove("hide");
 }
@@ -173,6 +177,4 @@ function startQuiz() {
   answersIndicator();
 }
 
-window.onload = function () {
-  homeBox.querySelector(".total-question").innerHTML = quiz.length;
-};
+
