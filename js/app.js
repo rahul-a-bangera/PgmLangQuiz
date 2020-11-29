@@ -177,4 +177,3 @@ function startQuiz() {
   answersIndicator();
 }
 
-
