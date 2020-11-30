@@ -1,4 +1,4 @@
-# PgmLangQuiz
+## PgmLangQuiz
 
 http://pgmlangquiz.cf/
 
