@@ -173,7 +173,5 @@ function startQuiz() {
   quizBox.classList.remove("hide");
   setAvailableQuestions();
   getNewQuestion();
-
   answersIndicator();
 }
-
