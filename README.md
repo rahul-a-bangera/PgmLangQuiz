@@ -4,8 +4,8 @@ http://pgmlangquiz.cf/
 
 ## This project aims to provide a quiz on Multiple programming language with simple User Interface.
 
-The question and the option comes in a random order. The user can skip the question. If user selects write
-answer it is shown as green horizontal bar on the option similar to wrong answer and also the write answer is
+The question and the option comes in a random order. The user can skip the question. If user selects right
+answer it is shown as green horizontal bar on the option similarly the wrong answer in red and also the write answer is
 highlighted when wrong option is choosen. At last a summary of the quiz shown containing Number of attempted question,
 Correct answer, wrong answer, total score etc.
 
